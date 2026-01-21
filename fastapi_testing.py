@@ -6,7 +6,7 @@ import os
 # print(os.getcwd())
 
 app = FastAPI()
-app = FastAPI()
+
 csv_file = "slots.csv"
 
 class Slot(BaseModel):
